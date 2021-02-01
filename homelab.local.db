@@ -1,0 +1,19 @@
+$TTL 86400
+@ IN SOA dhcpdns01.homelab.local. admin.homelab.local. (
+			2 ;Serial
+			3600 ;Refresh
+			1800 ;Retry
+			604800 ;Expire
+			86400 ;Minimum TTL
+)
+
+;Name Server info
+@ IN NS dhcpdns01.homelab.local.
+
+;IP Address for Name Server
+dhcpdns01 IN A 192.168.1.110
+api.ocpcluster IN A 192.168.1.111
+*.apps.ocpcluster IN A 192.168.1.112
+
+
+
