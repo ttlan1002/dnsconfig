@@ -14,6 +14,10 @@ $TTL 86400
 dhcpdns01 IN A 192.168.1.110
 api.ocpcluster IN A 192.168.1.111
 *.apps.ocpcluster IN A 192.168.1.112
-
-
+ansible IN A 192.168.1.150
+srv01 IN A 192.168.1.151
+srv02 IN A 192.168.1.152
+srv03 IN A 192.168.1.153
+capsule IN A 192.168.1.115
+newsatellite IN A 192.168.1.130
 

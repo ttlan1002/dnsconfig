@@ -11,4 +11,8 @@ $TTL 86400
 
 dhcpdns01 IN A 192.168.1.110
 
-110 IN PTR dhcpdns01.homelab.local
+110 IN PTR dhcpdns01.homelab.local.
+150 IN PTR ansible.homelab.local.
+120 IN PTR satellite.homelab.local.
+130 IN PTR newsatellite.homelab.local.
+115 IN PTR capsule.homelab.local.
